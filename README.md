@@ -15,6 +15,8 @@ for the TF API and xml_to_csv.py is used to convert the xml files into one csv
 - a few jupyter notebooks: draw boxes is used to plot some of the data and
 split labels is used to split the full labels into train and test labels
 ```
-
+ubuntu 16.0.4 anaconda 5.0.1 ram 32GB nvidia 1060-3G 
 add below to ./bashrc  # download tensorflow model at the same level
+```
 export PYTHONPATH=$PYTHONPATH:~/models/research/:~/models/research/slim
+```
