@@ -16,7 +16,5 @@ for the TF API and xml_to_csv.py is used to convert the xml files into one csv
 split labels is used to split the full labels into train and test labels
 ```
 
-## Copyright
-
-See [LICENSE](LICENSE) for details.
-Copyright (c) 2017 [Dat Tran](http://www.dat-tran.com/).
+add below to ./bashrc  # download tensorflow model at the same level
+export PYTHONPATH=$PYTHONPATH:~/models/research/:~/models/research/slim
